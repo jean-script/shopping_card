@@ -13,6 +13,12 @@ function SearchBar(){
 
   const handleSearch = async (e) =>{
     e.preventDefault();
+    
+    if(searchValue.trim() === ''){
+      alert('Digite algo');
+      return;
+    }
+
     setLoading(true);
     const products = await fetchProducts(searchValue);
     setProducts(products);
