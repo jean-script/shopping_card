@@ -8,6 +8,7 @@ Um site de loja de compras usando a api do mercado livre. Neste projeto temos o 
 ## Aprendizados
 
 Criar carinho de compras, efeito de menu e melhorar as minhas habilidades com react hooks, context api e componentização.
+Usando padrões de programação com eslint. 
 ## Tela principal
 
 ![App Screenshot](https://github.com/jean-script/shopping_card/blob/main/src/assets/imgGit.JPG?raw=true)
